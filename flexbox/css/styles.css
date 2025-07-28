@@ -1,0 +1,27 @@
+#padre{
+
+width: 200vh;
+height: 100vh;
+background-color: yellow;
+display: flex;
+justify-content: center; /* Alineación horizontal */
+gap: 20px; /* Espacio entre los hijos */
+flex-wrap: wrap;
+align-items: center; /* Alineación vertical */
+align-content: center; /* Alineación del contenido */
+
+
+}
+
+.Hijo{
+width: 400px;
+height: 400px;              
+background-color: red;
+border-radius: 15px;
+
+
+
+
+}
+
+
