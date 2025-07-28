@@ -1,27 +1,73 @@
-#padre{
+body {
+    margin: 0;
+    padding: 0;
+}
 
-width: 200vh;
-height: 100vh;
-background-color: yellow;
-display: flex;
-justify-content: center; /* Alineación horizontal */
-gap: 20px; /* Espacio entre los hijos */
-flex-wrap: wrap;
-align-items: center; /* Alineación vertical */
-align-content: center; /* Alineación del contenido */
+#padre {
+    width: 200vh;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.Hijo1 {
+    width: 180vh;
+    height: 80vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 20px;
+}
+
+.fila-superior {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.fila-inferior {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.Hijo2 {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Hijo3 {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.Hijo{
-width: 400px;
-height: 400px;              
-background-color: red;
-border-radius: 15px;
-
-
-
-
+.Hijo4 {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
-
 
